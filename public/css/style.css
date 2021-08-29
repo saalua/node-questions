@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #563d7c;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+body {
+    padding-top: 1%;
+    background-color: var(--primary-color);
+}
+
+.btn {
+    background-color: var(--primary-color);
+}
+
+.btn-link {
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    background-color: #7a0c7a;
+    text-decoration: none;
+    margin-bottom: 14px;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: var(--primary-color);
+    background-color: slateblue;
+    transition: all 0.7s;
+}
+
